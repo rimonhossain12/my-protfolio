@@ -5,3 +5,7 @@
      width: 50%;
      border-radius: 50%;
 }
+
+#profile-img{
+    border:1px solid blue;
+}
