@@ -27,6 +27,9 @@ const Header = () => {
                 <a href="https://github.com/rimonhossain12" target={`_blank`} className='me-3'><FaGithub size={35} /></a>
                 <a href="https://www.linkedin.com/in/rimonhossain12/" target={`_blank`}><FaLinkedin size={35} /></a>
             </div>
+            <div className='mt-4'>
+                <button className='btn-gradient'>download resume</button>
+            </div>
         </div>
     );
 };
