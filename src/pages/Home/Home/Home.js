@@ -2,14 +2,15 @@ import React from 'react';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
 import Header from '../Header/Header';
-import Skills from '../Skills/Skills';
+import Skill from '../MySkill/Skill';
+
 const Home = () => {
     return (
         <div>
             <Banner />
             <Header/>
             <About/>
-            <Skills/>
+            <Skill/>
         </div>
     );
 };

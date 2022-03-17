@@ -6,33 +6,33 @@ import './Skill.css';
 
 const Skills = () => {
     return (
-        <div>
+        <section id="skills">
             <Container>
                 <div className="main-title">
-                    <h3 className='text-center fw-bold' style={{ color: '#B7950B' }} >My Skills</h3>
+                    <h2 className="text-center">
+                        {/* <Zoom left cascade> */}
+                            My Skills
+                        {/* </Zoom> */}
+                    </h2>
                 </div>
                 <Row>
                     <Col md={6}>
-                        <div className="skill-bar">
-                            {
-                                skills1.map((skill) => <Skill {...skill}
-                                    key={skill.id}
-                                />)
-                            }
+                        <div className="skill-bars">
+                            {skills1.map((skill) => (
+                                <Skill {...skill} key={skill.id} />
+                            ))}
                         </div>
                     </Col>
                     <Col md={6}>
-                        <div className="skill-bar">
-                            {
-                                skill2.map((skill) => <Skill {...skill}
-                                    key={skill.id}
-                                />)
-                            }
+                        <div className="skill-bars">
+                            {skill2.map((skill) => (
+                                <Skill {...skill} key={skill.id} />
+                            ))}
                         </div>
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </section>
     );
 };
 

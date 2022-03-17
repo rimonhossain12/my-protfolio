@@ -1,6 +1,4 @@
 import React from 'react';
-// import profile from '../../../images/abou_me.jpg';
-// import Zoom from 'react-reveal/Zoom';
 import './About.css';
 
 const About = () => {
@@ -10,7 +8,6 @@ const About = () => {
                 <div className='col-sm-12 col-md-6 col-lg-6'>
                     <p style={{ textAlign: 'justify' }}>
                         <img id="profile-img" className='img-fluid' src="https://i.ibb.co/R7pX5yv/74418535.jpg" alt="74418535" border="0"/>
-                        {/* <img src={profile} alt="profile-images" className='img-fluid' /> */}
                     </p>
                 </div>
                 <div className='col-sm-12 col-md-6 col-lg-6'>
