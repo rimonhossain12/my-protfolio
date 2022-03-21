@@ -36,7 +36,7 @@ export const UserForm = () => {
                     <textarea className="form-control" type="text"  name="message" placeholder="Leave a comment here"  style={{ height: '100px' }}></textarea>
                     <label for="floatingTextarea2">Comments</label>
                 </div>
-                <button type="submit" value="Send" className="btn btn-primary col-md-10">Primary</button>
+                <button type="submit" value="Send" className="btn btn-primary col-md-10">send</button>
             </form>
         </>
     );
