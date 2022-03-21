@@ -27,13 +27,13 @@ export const UserForm = () => {
             </div>
             <form ref={form} class="row g-3" onSubmit={sendEmail}>
                 <div className="col-md-10 text-start">
-                    <input type="text" name="name" className="form-control" placeholder='Name' />
+                    <input type="text" name="name" className="form-control" placeholder='Name' required />
                 </div>
                 <div className="col-md-10 text-start">
-                    <input type="email" name="email" className="form-control" placeholder='Email Address' />
+                    <input type="email" name="email" className="form-control" placeholder='Email Address' required />
                 </div>
                 <div className="form-floating col-md-10">
-                    <textarea className="form-control" type="text"  name="message" placeholder="Leave a comment here"  style={{ height: '100px' }}></textarea>
+                    <textarea className="form-control" type="text" name="message" placeholder="Leave a comment here" style={{ height: '100px' }} required></textarea>
                     <label for="floatingTextarea2">Comments</label>
                 </div>
                 <button type="submit" value="Send" className="btn btn-primary col-md-10">send</button>
