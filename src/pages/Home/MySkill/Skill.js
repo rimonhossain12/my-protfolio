@@ -4,9 +4,8 @@ import { Col, Container, ProgressBar, Row } from 'react-bootstrap';
 const Skill = () => {
     return (
         <div style={{marginTop:'12vh'}}>
-            <Container>
-                <h3 className='text-center fw-bold' style={{ color: '#B7950B',marginBottom:'4vh' }} >My Skills</h3>
-                <Row>
+            <Container>                
+                <Row className='mx-auto'>
                     <Col xs={12} md={6} lg={6}>
                         <p className='w-75 text-start'>
                             <span className='text-uppercase'>HTML5</span>
