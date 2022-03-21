@@ -1,0 +1,39 @@
+
+/* a {
+    padding: 5px;
+     
+}
+
+a .social-icon {
+   margin: 20px 5px;
+   transition: transform 2s;
+}
+a.social-icon:hover {
+     transform:rotate(360deg);
+} */
+
+.social-container{
+    padding: 5px 0px;
+}
+
+.social-container a .social-icon{
+    color:#e9ecef;
+    font-size: 14px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 33px;
+    background:transparent;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    /* background-color: darkblue; */
+    display: inline-block;
+    margin-right: 10px;
+    transition: all 0.5s;
+    
+}
+
+.social-container a .social-icon:hover{
+    background-color: transparent;
+    border-color: #e9ecef;
+}
