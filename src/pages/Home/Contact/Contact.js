@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import { Fade } from 'react-reveal';
 import UserForm from './UserForm';
 
 
@@ -11,6 +12,7 @@ const Contact = () => {
             <div>
                 <Row className='g-4 mt-5'>
                     <Col className='mx-auto mt-5' xs={12} md={4} lg={4}>
+                    <Fade right>
                         <p className='text-start font-monospace'>
                             <i class="fa-solid fa-phone"></i>
                             <span className='ms-2'>+8801739847468</span>
@@ -23,10 +25,12 @@ const Contact = () => {
                             <i class="fa-solid fa-location-dot"></i>
                             <span className='ms-2'>Sirajganj, Bangladesh</span>
                         </p>
-
+                    </Fade>
                     </Col>
                     <Col xs={12} md={8} lg={8}>
+                        <Fade left>
                         <UserForm/>
+                        </Fade>
                     </Col>
                 </Row>
             </div>

@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { skills1, skill2 } from '../../../data/skill.data';
 import Skill from './Skill';
 import './Skill.css';
+import Fade from 'react-reveal/Fade';
 
 const Skills = () => {
     return (
@@ -11,25 +12,31 @@ const Skills = () => {
                 <div className="main-title">
                     <h2 className="text-center">
                         {/* <Zoom left cascade> */}
-                            My Skills
+                        My Skills
                         {/* </Zoom> */}
                     </h2>
                 </div>
                 <Row>
+                    <Fade right>
                     <Col md={6}>
                         <div className="skill-bars">
-                            {skills1.map((skill) => (
-                                <Skill {...skill} key={skill.id} />
-                            ))}
+                            <Fade right>
+                                {skills1.map((skill) => (
+                                    <Skill {...skill} key={skill.id} />
+                                ))}
+                            </Fade>
                         </div>
                     </Col>
-                    <Col md={6}>
-                        <div className="skill-bars">
-                            {skill2.map((skill) => (
-                                <Skill {...skill} key={skill.id} />
-                            ))}
-                        </div>
-                    </Col>
+                    </Fade>
+                    <Fade right>
+                        <Col md={6}>
+                            <div className="skill-bars">
+                                {skill2.map((skill) => (
+                                    <Skill {...skill} key={skill.id} />
+                                ))}
+                            </div>
+                        </Col>
+                    </Fade>
                 </Row>
             </Container>
         </section>
