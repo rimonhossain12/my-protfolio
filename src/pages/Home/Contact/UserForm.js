@@ -38,6 +38,9 @@ export const UserForm = () => {
                     <div className="col-md-10 text-start">
                         <input type="email" name="email" className="form-control" placeholder='Email Address' required />
                     </div>
+                    <div className="col-md-10 text-start">
+                        <input type="text" name="subject" className="form-control" placeholder='Subject' required />
+                    </div>
                     <div className="form-floating col-md-10">
                         <textarea className="form-control" type="text" name="message" placeholder="Leave a comment here" style={{ height: '100px' }} required></textarea>
                         <label for="floatingTextarea2">Comments</label>

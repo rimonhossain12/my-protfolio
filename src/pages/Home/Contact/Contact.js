@@ -3,9 +3,6 @@ import { Col, Row } from 'react-bootstrap';
 import { Fade } from 'react-reveal';
 import UserForm from './UserForm';
 
-
-
-
 const Contact = () => {
     return (
         <div className='container' style={{ marginTop: '15vh' }}>
