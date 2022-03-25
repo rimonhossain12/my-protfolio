@@ -1,33 +1,30 @@
 // import { Button } from 'bootstrap';
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
-import { projects } from '../../../data/project';
+import { Card, Col, Container,Row } from 'react-bootstrap';
 import './Project.css';
 
 const Project = () => {
     return (
         <div style={{ marginTop: '15vh' }}>
             <h2>This is my projects</h2>
-            <Container>
+           <Container>
                 <Row xs={1} md={2} lg={3} className="g-4">
-                    {projects.map((project) => (
-                        <>
-                            <Col>
-                                <Card className='project-card mt-2'>
-                                    <Card.Img variant="top" className='img-fluid' src={project.img} />
-                                    <Card.Body className='mt-3 text-start'>
-                                        <Card.Title>{project.name}</Card.Title>
-                                        <Card.Text>
-
-                                        </Card.Text>
-                                        {/* <a href= `{project.live}`></a> */}
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                        </>
+                    {Array.from({ length: 6 }).map((_, idx) => (
+                        <Col>
+                            <Card className="project-card">
+                                <Card.Img variant="top" src="holder.js/100px160" />
+                                <Card.Body>
+                                    <Card.Title>Card title</Card.Title>
+                                    <Card.Text>
+                                        This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
                     ))}
                 </Row>
-            </Container>
+           </Container>
         </div>
     );
 };
