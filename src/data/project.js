@@ -3,7 +3,10 @@ export const projects = [
        id:'1',
        name:"Bycycle project",
         technologies:'html,css,js,react.js,node js,express js, mongodb,heroku',
-        img:'https://i.ibb.co/5L8bRtT/Screenshot-51.png'
+        img:'https://i.ibb.co/5L8bRtT/Screenshot-51.png',
+        live:'https://bicycle-application.web.app/',
+        github_server:'https://github.com/rimonhossain12/-bycycle-web-site-server',
+        github_client:'https://github.com/rimonhossain12/bycycle-web-site-client'
    },
    {
        id:'2',

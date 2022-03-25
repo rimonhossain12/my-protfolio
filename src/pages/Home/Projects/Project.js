@@ -11,13 +11,12 @@ const Project = () => {
                 <Row xs={1} md={3} className="g-4">
                     {projects.map((project) => (
                         <Col>
-                            <Card className='project-card'>
+                            <Card className='project-card mt-2'>
                                 <Card.Img variant="top" className='img-fluid' src={project.img} />
-                                <Card.Body>
-                                    <Card.Title>Card title</Card.Title>
+                                <Card.Body className='mt-3 text-start'>
+                                    <Card.Title>{project.name}</Card.Title>
                                     <Card.Text>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.
+                                       {project.technologies}
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
