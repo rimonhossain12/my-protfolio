@@ -13,6 +13,7 @@ const About = () => {
                         {/* <p style={{ textAlign: 'justify' }}> */}
                         <img id="profile-img" className='img-fluid' src="https://i.ibb.co/R7pX5yv/74418535.jpg" alt="74418535" border="0" />
                         {/* </p> */}
+                        {/* <img className='img-fluid' id="profile-img"  src="https://i.ibb.co/m8PpXtP/rimon.jpg" alt="rimon" border="0"/> */}
                     </div>
                 </Fade>
                 <Fade left cascade>
