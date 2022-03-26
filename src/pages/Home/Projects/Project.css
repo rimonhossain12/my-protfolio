@@ -1,7 +1,7 @@
 .project-card {
-    height: 400px;
+    height: 450px;
+    /* height: auto; */
     transition: all 1s;
-    /* width: auto; */
     background: rgb(12, 12, 37);
 }
 .project-card img{
@@ -21,4 +21,16 @@
      padding: 3px 8px;
      font-size: 13px;
      height: 26px;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: start;
+    padding: 3px 5px;
+   
+}
+ul li a i{
+     margin-right: 10px;
+     font-size: 20px;
+     text-align: start;
 }
