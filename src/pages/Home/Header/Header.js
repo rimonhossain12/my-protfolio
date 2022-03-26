@@ -8,10 +8,10 @@ const Header = () => {
         <div className='header'>
             <h5 className='fs-6'>HI! I'M</h5>
             <p className="fs-1 fw-bold">Rimon Hossain</p>
-            <span style={{ color: '#98B0BC', fontWeight: 'bold' }}>
+            <span style={{ color: '#fff', fontWeight: 'bold' }}>
                 {/* Style will be inherited from the parent element */}
                 <Typewriter
-                    words={[`MERN STACK DEVELOPER`,`WEB APP DEVELOPER`]}
+                    words={[`MERN STACK DEVELOPER`,`WEB DEVELOPER`]}
                     loop={150}
                     cursor
                     cursorStyle='_'

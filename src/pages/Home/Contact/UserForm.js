@@ -24,9 +24,9 @@ export const UserForm = () => {
 
     return (
         <>
-            <div>
+            <div id="contact">
                 <Zoom bottom cascade>
-                    <h3 className='text-start fw-bold' style={{ color: '#B7950B' }} >About Me</h3>
+                    <h3 className='text-start fw-bold mb-3' style={{ color: '#B7950B' }} >Get In Touch</h3>
                 </Zoom>
             </div>
 

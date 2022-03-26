@@ -6,7 +6,7 @@ import Zoom from 'react-reveal/Zoom';
 
 const Skill = () => {
     return (
-        <div style={{ marginTop: '12vh' }}>
+        <div style={{ marginTop: '12vh' }} id="skill">
             <Zoom bottom cascade>
                 <h3 className='text-center fw-bold' style={{ color: '#B7950B' }} >My Skills</h3>
             </Zoom>

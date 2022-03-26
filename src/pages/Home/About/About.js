@@ -6,7 +6,7 @@ import { Zoom } from 'react-reveal';
 
 const About = () => {
     return (
-        <div className='container' style={{ marginTop: '25vh' }}>
+        <div id="about" className='container' style={{ marginTop: '25vh' }}>
             <div class="row g-4">
                 <Fade right cascade>
                     <div className='col-sm-12 col-md-6 col-lg-6'>

@@ -1,13 +1,16 @@
 // import { Button } from 'bootstrap';
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Zoom } from 'react-reveal';
 
 import './Project.css';
 
 const Project = () => {
     return (
-        <div style={{ marginTop: '15vh' }}>
-            <h2>This is my projects</h2>
+        <div style={{ marginTop: '15vh' }} id="project">
+            <Zoom bottom cascade>
+                <h3 id="project" className='text-center fw-bold mb-3' style={{ color: '#B7950B' }} >My project</h3>
+            </Zoom>
             <Container>
                 <Row className="g-4">
                     <Col xs={12} md={6} lg={4}>
