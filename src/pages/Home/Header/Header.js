@@ -26,7 +26,7 @@ const Header = () => {
                 <a href="https://www.linkedin.com/in/rimonhossain12/" target={`_blank`}><FaLinkedin size={35} /></a>
             </div>
             <div className='resume'>
-                <a id='resume-button' href="https://drive.google.com/file/d/13lZ6IshNLg3b5eISudcmecmT1ww4zH9n/view?usp=sharing" target={`_blank`}>Resume</a>
+                <a id='resume-button' className='text-decoration-none' href="https://drive.google.com/file/d/13lZ6IshNLg3b5eISudcmecmT1ww4zH9n/view?usp=sharing" target={`_blank`}>Resume</a>
             </div>
         </div>
     );
