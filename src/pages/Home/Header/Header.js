@@ -18,8 +18,6 @@ const Header = () => {
                     typeSpeed={200}
                     deleteSpeed={50}
                     delaySpeed={1000}
-                    // onLoopDone={handleDone}
-                    // onType={handleType}
                 />
             </span>
 
@@ -27,8 +25,8 @@ const Header = () => {
                 <a href="https://github.com/rimonhossain12" target={`_blank`} className='me-3'><FaGithub size={35} /></a>
                 <a href="https://www.linkedin.com/in/rimonhossain12/" target={`_blank`}><FaLinkedin size={35} /></a>
             </div>
-            <div className='mt-4'>
-                <button className='btn-gradient'>download resume</button>
+            <div className='resume'>
+                <a id='resume-button' href="https://drive.google.com/file/d/13lZ6IshNLg3b5eISudcmecmT1ww4zH9n/view?usp=sharing" target={`_blank`}>Resume</a>
             </div>
         </div>
     );
