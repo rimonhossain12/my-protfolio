@@ -2,3 +2,9 @@
     font-weight: bold;
     color: white;
 }
+@media screen and (max-width: 991px) {
+  .navbar {
+    background-color: #172A45;
+    color: white;
+  }
+}
