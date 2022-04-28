@@ -14,6 +14,7 @@ const Header = () => {
                     words={[`MERN STACK DEVELOPER`,`WEB DEVELOPER`]}
                     loop={150}
                     cursor
+                    style={{fontStyle:'italice'}}
                     cursorStyle='_'
                     typeSpeed={200}
                     deleteSpeed={50}

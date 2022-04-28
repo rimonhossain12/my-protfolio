@@ -10,7 +10,7 @@ const About = () => {
             <div class="row g-4">
                 <Fade right cascade>
                     <div className='col-sm-12 col-md-6 col-lg-6'>
-                        <img id="profile-img" className='img-fluid' src="https://i.ibb.co/R7pX5yv/74418535.jpg" alt="74418535" border="0" />
+                        <img id="profile-img" className='img-fluid' src="https://i.ibb.co/R372Ygs/74418535.jpg" alt="74418535" border="0" />
                     </div>
                 </Fade>
                 <Fade left cascade>
