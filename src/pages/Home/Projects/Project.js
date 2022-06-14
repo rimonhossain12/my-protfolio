@@ -170,6 +170,33 @@ const Project = () => {
                                 </ul>
                             </Card>
                         </Col>
+                    <Col xs={12} md={6} lg={4}>
+                        <Card className="project-card">
+                            <Card.Img className='img-fluid mb-1' style={{height:'200px'}} variant="top" src={'https://i.ibb.co/zNJHybP/serve.png'} />
+                            <div className='mt-2'>
+                                <Card.Title className="text-start mt-2">Rect Eid E-commerce</Card.Title>
+                                <p className='text-start'>React Eid-Ecommerce website. users buy any product and see his all product in dashboard pages. User Updated his information.(name,phone,email,etc).Admin can manage all the orders.Use</p>
+                            </div>
+                            <div className='technology'>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>Mongodb</span>
+                                <span>Firebase</span>
+                                <span>React bootstrap</span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/rimonhossain12/bycycle-web-site-client" target={`_blank`}>
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="https://react-eecommerce.firebaseapp.com/" target={`_blank`}>
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </Card>
+                    </Col>
                     </Row>
             </Container>
         </div>
