@@ -21,7 +21,7 @@ const About = () => {
                         <p style={{ textAlign: 'justify', marginTop: '6vh', fontSize: '17px' }}>
                             Hi! I am Rimon Hossain, a 4th year student of Diploma in Computer Science and Technology. I am a MERN Stack developer as well as a programming problem solving lover. I am constantly improving myself to improve myself in this field.</p>
                         <div className='mt-5 text-start'>
-                            <a className='text-decoration-none' id='resume-button' href="https://drive.google.com/file/d/13lZ6IshNLg3b5eISudcmecmT1ww4zH9n/view?usp=sharing" target={`_blank`}>Resume</a>
+                            <a className='text-decoration-none' id='resume-button' href="https://drive.google.com/file/d/1t357TKHq0B966vVOnXY5bO9ReaUMHggW/view?usp=sharing" target={`_blank`}>Resume</a>
                         </div>
                     </div>
                 </Fade>
